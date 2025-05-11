@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.App {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  border-left: 5px solid #00bcd4;
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #0097a7;
+}
+
+.contact-list {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-list h2 {
+  margin-bottom: 15px;
+}
+
+.contact-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e0f7fa;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.contact-item span {
+  font-weight: bold;
+}
